@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1fbdbd3cca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+           <img src="images/logo.png" class="logo"> 
+           <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>     <!-----yha par cross mark add hua------>
+    
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>     <!----yha par menu add hua-->
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h2> Hi, I'm <span style="color: rgb(14, 152, 14);">Shiv Shankar Tiwari</span> <br> From India.</h2>
+        </div>
+     </div>
+     <!---------about----------->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                       I am a passionate Data Scientist with a strong foundation in statistics, machine learning, and data-driven problem solving. With hands-on experience in Python, SQL, and tools like Pandas, Scikit-learn, and TensorFlow, I specialize in transforming raw data into actionable insights. My projects span predictive analytics, natural language processing, and data visualization, demonstrating my ability to turn complex data into clear, impactful stories. I thrive on solving real-world challenges and continuously explore emerging technologies in AI and data science. I’m driven by curiosity, a love for learning, and a commitment to delivering data solutions that make a measurable difference.
+
+ 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Data Analytics</span><br>To analyze raw data for better responce</li>
+                                 <li><span>Predictive Analytics</span><br>Predicting Future Outcome Based on present and past, Data values</li>
+                                  <li><span>Businesses Devloper</span><br>Devloping new ideas for Businesses  </li>
+                            </ul>
+                         </div>
+
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022</span><br>Data analytics student of TCS </li>
+                                 <li><span>2023 - Current</span><br>Predictive analytics student of IBM </li>
+                                  <li><span>2022 - Current</span><br>Devloping new ideas for our personal Businesses  </li>
+                            </ul>
+                         </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br> High school from SVMIC with 84% </li>
+                                 <li><span>2021</span><br>Intermediate from SVMIC with 83% </li>
+                                  <li><span>2022 - Current</span><br> Bachelor of Technology in Computer Science Engineering (Data Science + Artificial Intellgence) with 74.005% </li>
+                            </ul>
+                         </div>
+                      </div>
+                 </div>
+        </div>
+     </div>
+    </div>
+    <!--------------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+               <i class="fa-solid fa-chart-simple"></i>
+
+                <h2> Analyze Data</h2>
+                <p>I am passionate about uncovering meaningful insights from raw data. With a strong foundation in statistics, programming, and machine learning, I analyze complex datasets to identify patterns, trends, and correlations that support decision-making. I use tools like Python, SQL, Excel, and visualization libraries to clean, process, and interpret data effectively. Whether it's customer behavior, business performance, or predictive modeling, I enjoy turning data into actionable knowledge. My goal is to help organizations make data-driven decisions that drive growth, efficiency, and innovation. I constantly seek opportunities to learn new techniques and apply them to real-world problems</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                
+                <i class="fa-solid fa-chart-diagram"></i>
+
+                <h2> Predictive Analysis</h2>
+                <p>Predictive Analytics involves using historical data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes. As someone passionate about data-driven decision-making, I leverage predictive analytics to uncover patterns, anticipate trends, and support strategic planning. My work includes building models that help businesses forecast customer behavior, optimize operations, and minimize risks. By transforming raw data into actionable insights, I aim to enhance decision-making and drive innovation. I am constantly exploring new tools and methodologies in this field to stay ahead and deliver impactful results in various domains such as marketing, finance, and operations.</p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+                <i class="fa-solid fa-business-time"></i>
+
+                <h2>Businesses Devlopment</h2>
+                <p>I am passionate about driving growth through strategic business development. With a strong understanding of market trends, customer behavior, and competitive landscapes, I focus on identifying new opportunities, building valuable partnerships, and creating sustainable revenue models. My approach combines analytical thinking with effective communication to align business goals with market needs. I believe in innovation, collaboration, and long-term value creation. Whether it’s expanding into new markets, improving customer acquisition strategies, or enhancing brand presence, I aim to contribute meaningfully to organizational success. I thrive in dynamic environments where growth is driven by insight, creativity, and smart execution.
+
+</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-------------portfolio--------------->
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="sub-title"> My Work</h1>
+    <div class="Work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Data Analysis</h3>
+          <p>In this I collect a lots of raw data and analyze it to collect usefull data</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Predictive Analytics</h3>
+          <p>In this I predict the future scope of the market</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Business Development</h3>
+          <p>In this I analyze the new business ideas</p>
+          <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+
+<!--------------Contact-------------->
+<div id="Contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-regular fa-paper-plane"></i>shivshankartiwri312@gmail.com</p>
+        <p> <i class="fa-solid fa-phone-volume"></i>9889027860</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/shivshankar.tiwari.1848816"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/Shiva56854092"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/shiv-shankar-tiwari-a4054a282/"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/tiwari_shandilya_shivshankar/"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <a href="images/My-cv.pdf" download class="btn btn2">Download cv</a>
+
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet"  >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required> 
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+
+        
+      </div>
+    </div>
+  </div>
+       <div class="copyright">
+         <p> Copyright @Shiv. Made with  <i class="fa-solid fa-heart"></i>   easy project   </p>
+
+       </div>
+</div>
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+
+           function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+
+
+   </script>
+   <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzYRTQi9ojvnPtSLLfFm0vgjBn6P2L-B3LRFVfL20C4_DrPoLw2IFTijWFNnld92rPR/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function () {
+          msg.innerHTML =""
+
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
